@@ -1,0 +1,65 @@
+.bannerText{
+    animation: textupmain 12s linear infinite;
+    transform: translateY(100px);
+  }
+  @keyframes textupmain{
+    10%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+  
+  .bannerText h3{
+    animation: textup 12s linear infinite;
+    transform: translateY(80px);
+  }
+  
+  @keyframes textup{
+    10%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+  .bannerText h5{
+    animation: textup1 15s linear infinite;
+    transform: translateY(80px);
+  }
+  @keyframes textup1{
+    10%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+  
+  @keyframes textup3{
+    10%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+  
+  
+
+
+  /*==========animation2==============*/
+  .bannerText{
+      animation-delay: 0s;
+  }
+
+  .bannerText2{
+    animation-delay: 3s;
+}
+.bannerText3{
+    animation-delay: 7s;
+}
